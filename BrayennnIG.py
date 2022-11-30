@@ -635,7 +635,7 @@ class instagram:
 		self.satu = random.randrange(73, 99)
 		self.dua = random.randrange(4200, 4900)
 		self.tiga = random.randrange(40, 150)
-		useragent = f'''Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/55.0.2883.91 {self.satu}.0.{self.dua}.{self.tiga} Mobile Safari/537.36'''
+		useragent = f'''Mozilla/5.0 (Linux; Android 11; SM-N985F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36 Instagram 227.0.0.12.117 Android (30/11; 420dpi; 1180x2123; samsung; SM-N985F; c2s; exynos990; {self.satu}.0.{self.dua}.{self.tiga} Mobile Safari/537.36'''
 		return useragent
 
 	def passwordAPI(self,xnx):
@@ -950,7 +950,7 @@ def tlisensi():
      print(f'{M}[!] JANGAN KOSONG{N}');sleep(1)
      tlisensi()
     if lisen in ['buy','Buy']:
-     os.system('xdg-open https://wa.me/6285888222944?text=Bang+beli+lisensi+IG+nya+dong');exit()
+     os.system('xdg-open https://wa.me/62882019384849?text=Bang+beli+lisensi+IG+nya+dong');exit()
     loadinglisen()
     open('.lisen.txt','w').write(lisen)
     lisensi()
@@ -1089,6 +1089,8 @@ agent = random.choice(
 				"Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; BroadSign Xpress 1.0.15-6 B- (720) Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30","Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36",
 				"Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36"
 				"Mozilla/5.0 (Linux; Android 10; SM-A305F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36"
+				Mozilla/5.0 (Linux; Android 11; SM-N985F Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36 Instagram 227.0.0.12.117 Android (30/11; 420dpi; 1180x2123; samsung; SM-N985F; c2s; exynos990;
+				
 		]
 	)
 
